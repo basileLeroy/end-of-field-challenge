@@ -1,0 +1,31 @@
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+  }
+  
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    
+    
+      #mockup {
+          width: 1280px;
+          height: 329px;
+          background-image: url(https://raw.githubusercontent.com/becodeorg/gnt-verou-1-26/master/1.The-Field/4.HTML-CSS/5.End-of-Field/2.End-of-Field-Challenge/images/normal-res/complex/complex.04.png?token=ARLOQ37MIPCENFH2IYEMUOS7VKGOG);
+      
+          position: absolute;
+          top: 0;
+          left: 0;
+      
+          opacity: 0.5;
+          z-index: 10;
+          pointer-events: none;
+      
+      }
+    }
+    
