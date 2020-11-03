@@ -11,23 +11,27 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
+  /*
+        #mockup {
+            width: 1280px;
+            height: 329px;
+            background-image: url(https://raw.githubusercontent.com/becodeorg/gnt-verou-1-26/master/1.The-Field/4.HTML-CSS/5.End-of-Field/2.End-of-Field-Challenge/images/normal-res/complex/complex.04.png?token=ARLOQ37MIPCENFH2IYEMUOS7VKGOG);
+        
+            position: absolute;
+            top: 0;
+            left: 0;
+        
+            opacity: 0.5;
+            z-index: 10;
+            pointer-events: none;
+        
+        }
+    */
 }
 
 body a {
   color: white;
   text-decoration: none;
-}
-
-body #mockup {
-  width: 1280px;
-  height: 329px;
-  background-image: url(https://raw.githubusercontent.com/becodeorg/gnt-verou-1-26/master/1.The-Field/4.HTML-CSS/5.End-of-Field/2.End-of-Field-Challenge/images/normal-res/complex/complex.04.png?token=ARLOQ37MIPCENFH2IYEMUOS7VKGOG);
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  z-index: 10;
-  pointer-events: none;
 }
 
 body .container {
@@ -46,7 +50,6 @@ body .container {
 }
 
 body .container .workflow {
-  background-color: yellowgreen;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -119,7 +122,6 @@ body .container .nav .text .hiring {
 }
 
 body .container .template {
-  background-color: greenyellow;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -133,8 +135,23 @@ body .container .template {
   height: 100%;
 }
 
+body .container .template .header {
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 14%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 17%;
+}
+
+body .container .template .text {
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 14px;
+}
+
 body .container .info {
-  background-color: orange;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -146,5 +163,46 @@ body .container .info {
       flex-wrap: wrap;
   width: 330px;
   height: 100%;
+}
+
+body .container .info .header {
+  text-align: left;
+  padding-left: 17px;
+  padding-top: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 17%;
+}
+
+body .container .info .img {
+  padding-left: 17px;
+  padding-top: 1px;
+  padding-bottom: 14px;
+}
+
+body .container .info .icon .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .container .info .icon .input .mark {
+  padding-left: 20px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+body .container .info .icon .input .text {
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
 /*# sourceMappingURL=style-02.css.map */

@@ -35,4 +35,4 @@
         -> Inside each box, I made a new flex box in a column.
 
     Remember for next time:
-        ->
+        -> Try to use same values for paddings, margins, ...
