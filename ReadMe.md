@@ -12,7 +12,7 @@
 
 ## Interface 10
 
-https://basileleroy.github.io/end-of-field-challenge/index-01.html
+https://basileleroy.github.io/end-of-field-challenge/Index-01.html
 
     Once the boxes have been aligned, I start Styling the setting in eacht box.
         -> Filling the html with text.
