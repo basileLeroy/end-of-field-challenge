@@ -201,6 +201,7 @@ body .container .info .icon .input .mark {
 }
 
 body .container .info .icon .input .text {
+  font-size: 11px;
   padding-left: 5px;
   padding-top: 10px;
   padding-bottom: 0px;
