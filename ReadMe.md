@@ -12,6 +12,8 @@
 
 ## Interface 10
 
+https://basileleroy.github.io/end-of-field-challenge/index-01.html
+
     Once the boxes have been aligned, I start Styling the setting in eacht box.
         -> Filling the html with text.
         -> Adjusting box paddings/margins/sizes
@@ -28,6 +30,8 @@
 
 
 ## Interface 4 (complex)
+
+https://basileleroy.github.io/end-of-field-challenge/index-02.html
 
     I have divided my layout in 4 different boxes (workflow/nav/template/info)
 

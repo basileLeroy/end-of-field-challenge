@@ -1,0 +1,19 @@
+body {
+  margin: auto;
+  height: 100%;
+}
+
+body .excersise-01 {
+  width: 100%;
+  height: 250px;
+  background-color: grey;
+  text-align: center;
+}
+
+body .excersise-02 {
+  width: 100%;
+  background-color: #ad2e2e;
+  height: 250px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
