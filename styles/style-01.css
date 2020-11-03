@@ -1,0 +1,39 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body #mockup {
+  width: 442px;
+  height: 312px;
+  background-image: url(https://raw.githubusercontent.com/becodeorg/gnt-verou-1-26/master/1.The-Field/4.HTML-CSS/5.End-of-Field/2.End-of-Field-Challenge/images/normal-res/simple/interface.10.png?token=ARLOQ3YWRRPDTPN3DIYVGNS7VJKEG);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  z-index: 10;
+  pointer-events: none;
+}
+
+body .container {
+  background-color: aqua;
+  display: -ms-grid;
+  display: grid;
+  margin: 0;
+  position: absolute;
+  width: calc(442px - 6px - 6px);
+  height: calc(312px - 6px - 6px);
+  top: 0;
+  left: 0;
+}
+/*# sourceMappingURL=style-01.css.map */
