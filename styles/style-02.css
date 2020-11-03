@@ -13,6 +13,11 @@ body {
   margin: 0;
 }
 
+body a {
+  color: white;
+  text-decoration: none;
+}
+
 body #mockup {
   width: 1280px;
   height: 329px;
@@ -20,8 +25,126 @@ body #mockup {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0.5;
+  opacity: 0;
   z-index: 10;
   pointer-events: none;
+}
+
+body .container {
+  background-color: #462e4a;
+  width: 1280px;
+  height: 329px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0;
+}
+
+body .container .workflow {
+  background-color: yellowgreen;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 450px;
+  height: 100%;
+}
+
+body .container .workflow .header {
+  text-align: left;
+  padding-left: 35px;
+  padding-top: 8%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 17%;
+}
+
+body .container .workflow .text {
+  text-align: left;
+  padding-left: 35px;
+  height: auto;
+}
+
+body .container .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 250px;
+  height: 100%;
+}
+
+body .container .nav .header {
+  text-align: left;
+  padding-left: 5px;
+  padding-top: 14%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 17%;
+}
+
+body .container .nav .text {
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-bottom: 14px;
+}
+
+body .container .nav .text .hiring {
+  font-family: 'Staatliches', cursive;
+  font-size: 8px;
+  margin-left: 9px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 10px;
+  border-radius: 5%;
+  background-color: #844270;
+}
+
+body .container .template {
+  background-color: greenyellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 250px;
+  height: 100%;
+}
+
+body .container .info {
+  background-color: orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 330px;
+  height: 100%;
 }
 /*# sourceMappingURL=style-02.css.map */

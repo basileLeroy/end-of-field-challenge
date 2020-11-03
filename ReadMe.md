@@ -29,4 +29,10 @@
 
 ## Interface 4 (complex)
 
-    
+    I have divided my layout in 4 different boxes (workflow/nav/template/info)
+
+        -> Those boxes are flexed in a row.
+        -> Inside each box, I made a new flex box in a column.
+
+    Remember for next time:
+        ->
