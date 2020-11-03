@@ -10,8 +10,13 @@ body {
     height: 100%;
     width: 100%;
     margin: 0;
+    font-family: 'Rubik', sans-serif;
 
-    
+    hr {
+        border: 1px solid white;
+    }
+
+    /*
     #mockup {
         width: 442px;
         height: 312px;
@@ -26,17 +31,102 @@ body {
         pointer-events: none;
     
     }
+    */
 
     .container {
-        background-color: aqua;
-        display: grid;
+        width: calc(442px);
+        height: calc(312px);
+        max-width: 100%;
+        max-height: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
         margin: 0;
+        padding: 0px;
+        
         position: absolute;
-        width: calc(442px - 6px - 6px);
-        height: calc(312px - 6px - 6px);
+        
         top: 0;
         left: 0;
         
+        font-family: 'Rubik', sans-serif;
+
+        .header {
+            
+            background-color: #e7ecf4;
+            width: 94%;
+            height: 23%;
+            
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            vertical-align: middle;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+
+            font-family: 'Rubik', sans-serif;
+
+            .title {
+                width: 345px;
+                height: auto;
+
+                text-align: left;
+                margin: auto;
+                
+            }
+
+        }
+        .text {
+            width: 94%;
+            height: 68%;
+
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            vertical-align: middle;
+            background-color: #e7ecf4;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+
+            .sub {
+                
+                width: 100%;
+                height: 32%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                
+
+
+                .mark {
+                        
+                    width: 46px;
+                    height: 1fr;
+
+                    text-align: right;
+                    margin: auto;
+                    
+
+                }
+                .input {
+                    width: 350px;
+                    height: auto;
+
+                    text-align: left;
+                    margin: auto;
+                        
+                        
+
+                }
+            
+
+            }
+            
+        }
     }
 
 }
